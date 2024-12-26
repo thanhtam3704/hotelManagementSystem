@@ -27,7 +27,7 @@ namespace hotelManagementSystem
             dataGridView1.ReadOnly = true;  // Ngăn không cho chỉnh sửa dữ liệu trong DataGridView
             dataGridView1.EditMode = DataGridViewEditMode.EditProgrammatically; // Ngăn chỉnh sửa qua bàn phím
             displayCustomers();
-            CancelExpiredBookings();  // Kiểm tra và hủy các khách hàng không check-in đúng hạn
+            
         }
 
 
@@ -207,54 +207,7 @@ namespace hotelManagementSystem
                 MessageBox.Show($"Error when updating data:{ex.Message}", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        public void CancelExpiredBookings()
-        {
-            try
-            {
-                using (SqlConnection connection = new SqlConnection(conn))
-                {
-                    connection.Open();
-
-                    // Lấy danh sách khách hàng có ngày check-in trong quá khứ mà không thực hiện check-in
-                    string query = "SELECT room_id, full_name, date_from FROM customer WHERE status = 'Not Check In' AND date_from < @today";
-                    using (SqlCommand cmd = new SqlCommand(query, connection))
-                    {
-                        cmd.Parameters.AddWithValue("@today", DateTime.Today.Date);
-
-                        using (SqlDataReader reader = cmd.ExecuteReader())
-                        {
-                            while (reader.Read())
-                            {
-                                string roomID = reader["room_id"].ToString();
-                                string fullName = reader["full_name"].ToString();
-
-                                // Cập nhật trạng thái khách hàng thành "Cancelled"
-                                string updateCustomerQuery = "UPDATE customer SET status = 'Cancelled' WHERE room_id = @room_id";
-                                using (SqlCommand updateCmd = new SqlCommand(updateCustomerQuery, connection))
-                                {
-                                    updateCmd.Parameters.AddWithValue("@room_id", roomID);
-                                    updateCmd.ExecuteNonQuery();
-                                }
-
-                                // Cập nhật trạng thái phòng thành "Available"
-                                string updateRoomQuery = "UPDATE rooms SET status = 'Available' WHERE room_id = @room_id";
-                                using (SqlCommand updateCmd = new SqlCommand(updateRoomQuery, connection))
-                                {
-                                    updateCmd.Parameters.AddWithValue("@room_id", roomID);
-                                    updateCmd.ExecuteNonQuery();
-                                }
-
-                                MessageBox.Show($"ustomer {fullName} has been cancelled for failing to check-in on time.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            }
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error when checking expired customers: {ex.Message}", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
+        
 
         private void BtnCancel_Click(object sender, EventArgs e)
         {

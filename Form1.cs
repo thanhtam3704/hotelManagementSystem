@@ -14,7 +14,7 @@ namespace hotelManagementSystem
 {
     public partial class Form1 : Form
     {
-        private string conn = @"Data Source=DESKTOP-I7PF7E5;Initial Catalog=hotel;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        private string conn = @"Data Source=DESKTOP-I7PF7E5;Initial Catalog=hotel;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;MultipleActiveResultSets=True";
 
         public Form1()
         {
@@ -78,44 +78,35 @@ namespace hotelManagementSystem
                     // Mã hóa mật khẩu nhập vào
                     string hashedPassword = HashPassword(login_password.Text.Trim());
 
-                    string selectData = "SELECT * FROM users WHERE username = @usern AND password = @pass";
+                    // Truy vấn kiểm tra thông tin đăng nhập
+                    string selectData = "SELECT role FROM users WHERE username = @usern AND password = @pass";
                     using (SqlCommand cmd = new SqlCommand(selectData, connect))
                     {
                         cmd.Parameters.AddWithValue("@usern", login_username.Text.Trim());
                         cmd.Parameters.AddWithValue("@pass", hashedPassword); // Sử dụng mật khẩu đã mã hóa
 
-                        SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-                        DataTable table = new DataTable();
+                        // Thực thi lệnh và lấy vai trò
+                        object roleObj = cmd.ExecuteScalar();
 
-                        adapter.Fill(table);
-                        if (table.Rows.Count != 0)
+                        if (roleObj != null) // Đăng nhập thành công
                         {
+                            string userRole = roleObj.ToString();
                             MessageBox.Show("Login successful.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                            // Lấy vai trò của người dùng
-                            string selectRole = "SELECT role FROM users WHERE username = @usern AND password = @pass";
-                            using (SqlCommand getRole = new SqlCommand(selectRole, connect))
+                            if (userRole == "Admin")
                             {
-                                getRole.Parameters.AddWithValue("@usern", login_username.Text.Trim());
-                                getRole.Parameters.AddWithValue("@pass", hashedPassword); // Mã hóa mật khẩu cho câu lệnh role
-
-                                string userRole = getRole.ExecuteScalar() as string;
-
-                                if (userRole == "Admin")
-                                {
-                                    AdminMainForm admin_Form = new AdminMainForm();
-                                    admin_Form.Show();
-                                    this.Hide();
-                                }
-                                else if (userRole == "Staff")
-                                {
-                                    staffMainForm staff_Form = new staffMainForm();
-                                    staff_Form.Show();
-                                    this.Hide();
-                                }
+                                AdminMainForm admin_Form = new AdminMainForm();
+                                admin_Form.Show();
+                                this.Hide();
+                            }
+                            else if (userRole == "Staff")
+                            {
+                                staffMainForm staff_Form = new staffMainForm();
+                                staff_Form.Show();
+                                this.Hide();
                             }
                         }
-                        else
+                        else // Đăng nhập thất bại
                         {
                             MessageBox.Show("Incorrect username or password.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
@@ -123,5 +114,6 @@ namespace hotelManagementSystem
                 }
             }
         }
+
     }
 }

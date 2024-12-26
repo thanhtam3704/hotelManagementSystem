@@ -15,7 +15,7 @@ namespace hotelManagementSystem
 {
     public partial class RegistrationForm : Form
     {
-        private string conn = @"Data Source=DESKTOP-I7PF7E5;Initial Catalog=hotel;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+        private string conn = @"Data Source=DESKTOP-I7PF7E5;Initial Catalog=hotel;Integrated Security=True;Encrypt=True;TrustServerCertificate=True;MultipleActiveResultSets=True";
 
         public RegistrationForm()
         {

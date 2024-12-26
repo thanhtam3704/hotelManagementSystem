@@ -7,47 +7,55 @@
       "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:admin_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\customersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:customersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:admin_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\admin_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:admin_customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:registrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\customersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:customersdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:admin_rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\admin_rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:admin_rooms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:admin_dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\admin_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:admin_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\admin_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:admin_adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|c:\\users\\admin\\source\\repos\\hotelmanagementsystem\\staff_bookroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\staff_bookroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29D04C20-3416-4373-A2F6-7C74B4E6535E}|hotelManagementSystem.csproj|solutionrelative:staff_bookroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,83 +70,56 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "customersData.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\customersData.cs",
-              "RelativeDocumentMoniker": "customersData.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\customersData.cs",
-              "RelativeToolTip": "customersData.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBEAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T02:21:37.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "admin_dashboard.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_dashboard.cs",
               "RelativeDocumentMoniker": "admin_dashboard.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_dashboard.cs",
               "RelativeToolTip": "admin_dashboard.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAAI0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T01:47:34.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "admin_rooms.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_rooms.cs",
-              "RelativeDocumentMoniker": "admin_rooms.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_rooms.cs [Design]",
-              "RelativeToolTip": "admin_rooms.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T01:38:35.457Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowGwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBAAAACxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T01:19:15.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "admin_rooms.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_rooms.cs",
+              "RelativeDocumentMoniker": "admin_rooms.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_rooms.cs [Design]",
+              "RelativeToolTip": "admin_rooms.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T01:38:35.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "admin_customers.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_customers.cs",
               "RelativeDocumentMoniker": "admin_customers.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_customers.cs [Design]",
-              "RelativeToolTip": "admin_customers.cs [Design]",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_customers.cs [Design]*",
+              "RelativeToolTip": "admin_customers.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T01:28:35.69Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "admin_customers.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_customers.cs",
-              "RelativeDocumentMoniker": "admin_customers.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_customers.cs",
-              "RelativeToolTip": "admin_customers.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAhwDQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T01:28:37.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "admin_dashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_dashboard.cs",
               "RelativeDocumentMoniker": "admin_dashboard.cs",
@@ -150,20 +131,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "admin_rooms.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_rooms.cs",
-              "RelativeDocumentMoniker": "admin_rooms.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_rooms.cs",
-              "RelativeToolTip": "admin_rooms.cs",
-              "ViewState": "AgIAAKwAAAAAAAAAAAAhwKIAAABBAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "admin_customers.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_customers.cs",
+              "RelativeDocumentMoniker": "admin_customers.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_customers.cs*",
+              "RelativeToolTip": "admin_customers.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T10:51:55.212Z",
+              "WhenOpened": "2024-12-17T01:28:37.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "RegistrationForm.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "RegistrationForm.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\RegistrationForm.cs",
+              "RelativeToolTip": "RegistrationForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAACxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:37:29.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistrationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\RegistrationForm.cs",
+              "RelativeDocumentMoniker": "RegistrationForm.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\RegistrationForm.cs [Design]",
+              "RelativeToolTip": "RegistrationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T08:37:27.791Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -175,19 +181,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
+              "Title": "customersData.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\customersData.cs",
+              "RelativeDocumentMoniker": "customersData.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\customersData.cs",
+              "RelativeToolTip": "customersData.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:21:37.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "admin_rooms.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_rooms.cs",
+              "RelativeDocumentMoniker": "admin_rooms.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_rooms.cs",
+              "RelativeToolTip": "admin_rooms.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAhwKIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T10:51:55.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "admin_addUser.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_addUser.cs",
               "RelativeDocumentMoniker": "admin_addUser.cs",
               "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_addUser.cs [Design]",
               "RelativeToolTip": "admin_addUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T01:32:38.295Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-17T01:32:38.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "staff_bookRoom.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\staff_bookRoom.cs",
               "RelativeDocumentMoniker": "staff_bookRoom.cs",
@@ -195,12 +224,11 @@
               "RelativeToolTip": "staff_bookRoom.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T01:26:06.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T01:26:06.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "admin_addUser.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\hotelManagementSystem\\admin_addUser.cs",
               "RelativeDocumentMoniker": "admin_addUser.cs",
@@ -208,8 +236,7 @@
               "RelativeToolTip": "admin_addUser.cs",
               "ViewState": "AgIAAJkAAAAAAAAAAAAIwC8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T01:32:39.983Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T01:32:39.983Z"
             }
           ]
         }
