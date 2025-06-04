@@ -119,7 +119,6 @@ namespace hotelManagementSystem
             }
         }
         private int getID;
-
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex != -1)
@@ -164,7 +163,6 @@ namespace hotelManagementSystem
             }
         }
 
-
         private void addUser_deleteBtn_Click(object sender, EventArgs e)
         {
             if (addUser_username.Text == "" || addUser_password.Text == "" || addUser_role.SelectedIndex == -1 || addUser_status.SelectedIndex == -1)
@@ -183,12 +181,9 @@ namespace hotelManagementSystem
                         using (SqlCommand cmd = new SqlCommand(deleteData, connect))
                         {
                             cmd.Parameters.AddWithValue("@usern", addUser_username.Text.Trim());
-
                             cmd.ExecuteNonQuery();
                             displayData();
-
                             MessageBox.Show("Delete successful", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
                         }
                     }
                 }
