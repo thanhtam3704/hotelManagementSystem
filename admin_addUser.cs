@@ -110,8 +110,6 @@ namespace hotelManagementSystem
                                 cmd.ExecuteNonQuery();
                                 clearFields();
                                 MessageBox.Show("Add successful", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
                             }
                         }
                     }
@@ -149,8 +147,6 @@ namespace hotelManagementSystem
                     using (SqlConnection connect = new SqlConnection(conn))
                     {
                         connect.Open();
-
-                        // Cập nhật chỉ role và status, không cập nhật username và password
                         string updateData = "UPDATE users SET role = @role, status = @status WHERE username = @usern";
                         using (SqlCommand cmd = new SqlCommand(updateData, connect))
                         {
