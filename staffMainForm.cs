@@ -16,8 +16,6 @@ namespace hotelManagementSystem
         {
             InitializeComponent();
         }
-
-        
         private void logout_btn_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure you want to log out?", "Confirmation message"
