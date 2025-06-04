@@ -21,7 +21,6 @@ namespace hotelManagementSystem
             InitializeComponent();
         }
 
-        // Mã hóa mật khẩu bằng SHA256
         public static string HashPassword(string password)
         {
             using (SHA256 sha256 = SHA256.Create())
@@ -74,21 +73,14 @@ namespace hotelManagementSystem
                 using (SqlConnection connect = new SqlConnection(conn))
                 {
                     connect.Open();
-
-                    // Mã hóa mật khẩu nhập vào
                     string hashedPassword = HashPassword(login_password.Text.Trim());
-
-                    // Truy vấn kiểm tra thông tin đăng nhập
                     string selectData = "SELECT role FROM users WHERE username = @usern AND password = @pass";
                     using (SqlCommand cmd = new SqlCommand(selectData, connect))
                     {
                         cmd.Parameters.AddWithValue("@usern", login_username.Text.Trim());
                         cmd.Parameters.AddWithValue("@pass", hashedPassword); // Sử dụng mật khẩu đã mã hóa
-
-                        // Thực thi lệnh và lấy vai trò
                         object roleObj = cmd.ExecuteScalar();
-
-                        if (roleObj != null) // Đăng nhập thành công
+                        if (roleObj != null) 
                         {
                             string userRole = roleObj.ToString();
                             MessageBox.Show("Login successful.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -106,7 +98,7 @@ namespace hotelManagementSystem
                                 this.Hide();
                             }
                         }
-                        else // Đăng nhập thất bại
+                        else
                         {
                             MessageBox.Show("Incorrect username or password.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
