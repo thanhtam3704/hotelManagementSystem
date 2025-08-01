@@ -162,6 +162,7 @@ namespace hotelManagementSystem
                 }
             }
         }
+        // Thay doi o day 
 
         private void addUser_deleteBtn_Click(object sender, EventArgs e)
         {
