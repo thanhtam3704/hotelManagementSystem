@@ -39,7 +39,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
-            // panel1
+            // panel 1
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.close);
